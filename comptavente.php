@@ -123,7 +123,7 @@ class comptavente extends ModuleGrid
 		$str = '<form action="#" method="post" id="suppliersForm" class="form-horizontal">
 					<div class="row row-margin-bottom">
 						<label class="control-label col-lg-3">
-							<span title="" data-toggle="tooltip" class="label-tooltip" data-original-title="' . $this->l('Click on a product to access its statistics!') . '">' . $this->l('Choose a supplier') . '</span>
+							<span title="" data-toggle="tooltip" class="label-tooltip" data-original-title="' . $this->l('Click on a product to access its statistics!') . '">' . $this->l('Choisir un fournisseur') . '</span>
 						</label>
 					<div class="col-lg-3">
 					<select name="id_supplier" onchange="$(\'#suppliersForm\').submit();">
